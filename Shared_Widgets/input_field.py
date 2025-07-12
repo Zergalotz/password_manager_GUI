@@ -1,7 +1,9 @@
 import tkinter as tk
 
 class CustomInputField(tk.Entry):
-    def __init__(self, master, placeholder="", **kwargs):
+    def __init__(self, master, placeholder="", width=None, **kwargs):
+        if width is not None:
+            kwargs['width'] = width
         super().__init__(master, **kwargs)
         self.placeholder = placeholder
         self.default_fg_color = self.cget("fg")
