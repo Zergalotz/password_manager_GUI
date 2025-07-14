@@ -15,6 +15,7 @@ CANVAS_BG = (240, 240, 240)
 WINDOW_PAD_X = 100
 WINDOW_PAD_Y = 100
 INPUT_WIDGET_WIDTH = 30
+# Constants for the password generator method in main.py file
 ALPHABET_CAPS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',]
 ALPHABET_LOWER = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 NUMBERS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
