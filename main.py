@@ -1,12 +1,18 @@
+import random
 from tkinter import *
 from tkinter import messagebox
-
 from Constants import constants
 from Shared_Widgets import label_widget, button_widget, input_field
+
 """ -------------------------  Password Generator  ------------------------- """
 def generate_password():
+    random_chars = constants.ALPHABET_CAPS + constants.ALPHABET_LOWER + constants.NUMBERS + constants.SPECIAL_CHARACTERS
+    password_length = random.randint(12, 16)
+    password = ''.join(random.choice(random_chars) for _ in range(password_length))
+    password_input.delete(0, END)
+    password_input.insert(0, password)
+    website_input.focus()
 
-    print("Password generated!")
 """ -------------------------    Save Password    -------------------------- """
 def add_saved_password():
     # popup message to confirm saving the password
