@@ -13,6 +13,6 @@ This is a simple password manager GUI application built using Python's Tkinter l
 
 ## Features
 - Add new passwords with associated website and username.
-- All passwords stored are in a table format in a txt file (again for personal and local use only).
+- All passwords stored in a table format in a txt file (again for personal and local use only).
 - Generate random passwords if user does not want to create their own.
 - Requires username and password to be entered before adding a new password. There will be pop-window that will appear if the user does not enter a username or password. Along with to confirm if you want to add the new password.
