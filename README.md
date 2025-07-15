@@ -1,4 +1,4 @@
-# password_manager_GUI
+# Password_Manager_GUI
 
 This project was for expanding my knowledge and growth in Python and developing GUIs. The tool I am using for the GUI is TKinter. There are other imports listed at the top of the main.py file.
 
